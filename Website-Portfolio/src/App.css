@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/RobotoSerif-Regular.ttf);
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+
+.headerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: Roboto;
+    align-items: baseline;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #2f2f2f;
+
+}
+
+
+.headerBar .myName {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 20%;
+}
+
+
+.headerBar .headerTitle {
+    cursor: pointer;
+    margin-right: 30px;
+}
