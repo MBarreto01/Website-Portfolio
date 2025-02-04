@@ -3,11 +3,13 @@
     src: url(./fonts/RobotoSerif-Regular.ttf);
 }
 
-body {
-    background-color: #e5e5e5;
+body, html {
+    background-color: #ececec;
+    margin: 0;
+    padding: 0;
 }
 
-
+/* Header Styling */
 .headerBar {
     display: flex;
     flex-direction: row;
@@ -20,6 +22,8 @@ body {
     margin: 0;
     padding: 0;
     color: #2f2f2f;
+    background-color: #e4e4e4;
+    
 
 }
 
@@ -36,4 +40,70 @@ body {
 .headerBar .headerTitle {
     cursor: pointer;
     margin-right: 30px;
+}
+
+.headerBar .headerTitle:hover {
+    color: #5b8667;
+}
+
+
+/* Intro Styling */
+.introContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    line-height: 2;
+}
+.smallSummary {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 25px;
+    width: 40%;
+    justify-content: center;
+}
+
+.boldName {
+    font-weight: bold;
+    color: #5b8667;
+}
+
+.bodyMargin {
+    margin-left: 20px;
+    text-indent: 20px;
+}
+
+.profilePic {
+    height: 25%;
+    width: 25%;
+    align-items: center;
+}
+
+
+/* AboutMe Styling */
+.aboutMeContainer{
+    font-family: Roboto;
+    width: 90%;
+    height: 100%;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.aboutMeTitle{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #5b8667;
+
+}
+
+.aboutMeBody{
+    text-indent: 20px;
 }
