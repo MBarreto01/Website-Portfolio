@@ -15,7 +15,7 @@ function AboutMe() {
                 
                 <p>
                 Beyond coding, I love roller skating, running, and diving into video games. I also love to eat,
-                always on the lookout for great food. Whether it's programming or continuing to grow in my 
+                I'm always on the lookout for great food. Whether it's programming or continuing to grow in my 
                 hobbies, I enjoy tackling life with creativity and enthusiasm.
                 </p>
             </p>

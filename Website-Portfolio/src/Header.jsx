@@ -10,9 +10,9 @@ function Header(){
 
                     <li className="headerTitle">About Me</li>
 
-                    <li className="headerTitle">Skills</li>
-
                     <li className="headerTitle">Projects</li>
+
+                    <li className="headerTitle">Skills</li>
                     
                 </ul>
             </nav>
