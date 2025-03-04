@@ -2,8 +2,8 @@
 
 function Card(props) {
     return(
-        <div className="Card">
-            <p>{props.title}</p>
+        <div className="card">
+            <p className="cardTitle">{props.title}</p>
             <p>{props.desc}</p>
         </div>
 

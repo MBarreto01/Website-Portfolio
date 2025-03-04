@@ -9,9 +9,15 @@ function Projects() {
             </p>
 
             <p className="projectsBody">
-                <Card title="VidScorePro" desc=""/>
-                <Card title="Website Portfolio" desc=""/>
-                <Card title="Contact Book" desc=""/>
+                <Card title="VidScorePro" desc="A web application that analyzes a video, and gives the video a 
+                                                grade based off of various metrics."/>
+
+                <Card title="Website Portfolio" desc="Front-end React web application using JSX and CSS 
+                            to create a personal portfolio website."/>
+
+                <Card title="Contact Book" desc="Stores employee information within a contact book for 
+                                                company records. Utilizes various Java classes, extensions, and 
+                                                arrays."/>
             </p>
             
         </div>

@@ -64,6 +64,7 @@ body, html {
     font-size: 25px;
     width: 40%;
     justify-content: center;
+    color: #2f2f2f
 }
 
 .boldName {
@@ -97,6 +98,7 @@ body, html {
     align-items: center;
     font-size: 25px;
     line-height: 2;
+    color: #2f2f2f;
 }
 
 .aboutMeTitle{
@@ -140,14 +142,55 @@ body, html {
     justify-content: baseline;
     gap: 30px;
     width: 100%;
+    color: #2f2f2f;
 }
 
-.Card{
+.card{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 40%;
+    height: 16em;
     border: 1px solid #5b866771;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #5b866771;
+    text-align: center;
+    padding: 10px;
+}
+
+.cardTitle{
+    text-decoration: underline;
+}
+
+/* Skills Styling */
+
+.skillsContainer{
+    font-family: Roboto;
+    width: 90%;
+    height: 100%;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    line-height: 2;
+    justify-content: space-evenly;
+
+}
+
+.skillsTitle{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #5b8667;
+}
+
+.skillsBody{
+    color: #2f2f2f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 50px;
 }
