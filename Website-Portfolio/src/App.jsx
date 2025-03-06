@@ -1,16 +1,19 @@
-import Header from './Header.jsx'
-import './App.css'
-import LandingPage from './LandingPage.jsx';
+import { useRef } from 'react';
+import Header from './Header';
+import './App.css';
+import LandingPage from './LandingPage';
 
 function App() {
 
+  const scrollToSection = useRef(null);
+
   return (
     <>
-      <Header />
-      <LandingPage />
+      <Header scrollToSection={scrollToSection.current} />
+      <LandingPage scrollToSection={scrollToSection.current} />
       
     </>
   );
 }
 
-export default App
+export default App;

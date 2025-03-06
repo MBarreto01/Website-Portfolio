@@ -9,7 +9,7 @@ function Projects() {
             </p>
 
             <p className="projectsBody">
-                <Card title="VidScorePro" desc="A web application that analyzes a video, and gives the video a 
+                <Card title="VidScorePro" desc="Web application that analyzes a video, and gives the video a 
                                                 grade based off of various metrics."/>
 
                 <Card title="Website Portfolio" desc="Front-end React web application using JSX and CSS 

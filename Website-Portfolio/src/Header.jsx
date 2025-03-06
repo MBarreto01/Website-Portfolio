@@ -1,23 +1,32 @@
-function Header(){
-    
-    return(
-        <header>
-            <nav>
-                <ul className="headerBar">
-                    <li className="myName">
-                        <p>Michael Barreto</p>
-                    </li>
+function Header({ scrollToSection }) {
+    return (
+      <header>
+        <nav>
+          <ul className="headerBar">
+            <li className="myName">
+              <p>Michael Barreto</p>
+            </li>
+  
+            <div className="headerTitle" onClick={() => scrollToSection("aboutMe")}>
+              About Me
+            </div>
+  
+            <div className="headerTitle" onClick={() => scrollToSection("projects")}>
+              Projects
+            </div>
+  
+            <div className="headerTitle" onClick={() => scrollToSection("skills")}>
+              Skills
+            </div>
 
-                    <li className="headerTitle">About Me</li>
-
-                    <li className="headerTitle">Projects</li>
-
-                    <li className="headerTitle">Skills</li>
-                    
-                </ul>
-            </nav>
-        </header>
+            <div className="headerTitle">
+              Contact
+            </div>
+          </ul>
+        </nav>
+      </header>
     );
-}
-
-export default Header;
+  }
+  
+  export default Header;
+  
