@@ -78,8 +78,8 @@ body, html {
 }
 
 .profilePic {
-    height: 35%;
-    width: 35%;
+    height: 50%;
+    width: 42%;
     align-items: center;
     border-radius: 50%;
 
@@ -193,4 +193,41 @@ body, html {
     justify-content: space-evenly;
     width: 100%;
     font-size: 50px;
+}
+
+/* Contact Styling */
+
+.contactContainer{
+    font-family: Roboto;
+    width: 90%;
+    height: 100%;
+    margin-top: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    line-height: 2;
+    justify-content: space-evenly;
+}
+
+.contactTitle{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #5b8667;
+}
+
+.contactBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: #2f2f2f;
+    gap: 20px;
+}
+
+.contactIcon {
+    font-size: 50px;
+    color: #2f2f2f;
+    display: inline-flex;
 }

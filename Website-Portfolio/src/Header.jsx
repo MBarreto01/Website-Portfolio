@@ -19,7 +19,7 @@ function Header({ scrollToSection }) {
               Skills
             </div>
 
-            <div className="headerTitle">
+            <div className="headerTitle" onClick={() => scrollToSection("contact")}>
               Contact
             </div>
           </ul>

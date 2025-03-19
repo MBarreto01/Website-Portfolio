@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Header scrollToSection={scrollToSection.current} />
-      <LandingPage scrollToSection={scrollToSection.current} />
+      <Header scrollToSection={(section) => scrollToSection.current?.(section)} />
+      <LandingPage scrollToSection={scrollToSection} />
       
     </>
   );

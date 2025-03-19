@@ -14,7 +14,7 @@ function Intro(){
             </div>
 
             <img className="profilePic"
-                src="/WebsitePicture.PNG"  alt="Profile Picture">
+                src="/Headshot.png"  alt="Profile Picture">
             </img>
 
         </div>
