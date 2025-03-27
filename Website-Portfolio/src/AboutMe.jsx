@@ -6,7 +6,7 @@ function AboutMe() {
                 About Me
             </p>
             
-            <p className="aboutMeBody">
+            <div className="aboutMeBody">
                 I'm a senior Computer Science student based in Texas, passionate about building intuitive 
                 and efficient software. My goal is to become a software engineer specializing in 
                 web development, where I can create seamless and engaging digital experiences.
@@ -18,7 +18,7 @@ function AboutMe() {
                 I'm always on the lookout for great food. Whether it's programming or continuing to grow in my 
                 hobbies, I enjoy tackling life with creativity and enthusiasm.
                 </p>
-            </p>
+            </div>
 
         </div>
     );

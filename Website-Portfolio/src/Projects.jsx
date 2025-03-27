@@ -8,7 +8,7 @@ function Projects() {
                 Projects
             </p>
 
-            <p className="projectsBody">
+            <div className="projectsBody">
                 <Card title="VidScorePro" desc="Web application that analyzes a video, and gives the video a 
                                                 grade based off of various metrics."/>
 
@@ -18,7 +18,7 @@ function Projects() {
                 <Card title="Contact Book" desc="Stores employee information within a contact book for 
                                                 company records. Utilizes various Java classes, extensions, and 
                                                 arrays."/>
-            </p>
+            </div>
             
         </div>
         </>
