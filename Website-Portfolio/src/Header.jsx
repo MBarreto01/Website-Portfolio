@@ -7,21 +7,21 @@ function Header({ scrollToSection }) {
               <p>Michael Barreto</p>
             </li>
   
-            <div className="headerTitle" onClick={() => scrollToSection("aboutMe")}>
+            <li className="headerTitle" onClick={() => scrollToSection("aboutMe")}>
               About Me
-            </div>
+            </li>
   
-            <div className="headerTitle" onClick={() => scrollToSection("projects")}>
+            <li className="headerTitle" onClick={() => scrollToSection("projects")}>
               Projects
-            </div>
+            </li>
   
-            <div className="headerTitle" onClick={() => scrollToSection("skills")}>
+            <li className="headerTitle" onClick={() => scrollToSection("skills")}>
               Skills
-            </div>
+            </li>
 
-            <div className="headerTitle" onClick={() => scrollToSection("contact")}>
+            <li className="headerTitle" onClick={() => scrollToSection("contact")}>
               Contact
-            </div>
+            </li>
           </ul>
         </nav>
       </header>
