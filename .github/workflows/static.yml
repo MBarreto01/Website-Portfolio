@@ -16,32 +16,28 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20.18.0  # Ensure this matches your Node.js version
+          node-version: 20.18.0
 
-      - name: Install Dependencies
-        run: npm install 
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./Website-Portfolio  # Adjusted path
 
-      - name: Build Project
-        run: npm run build  # This generates the "dist/" folder
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+      - name: Build the project
+        run: npm run build
+        working-directory: ./Website-Portfolio  # Adjusted path
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'  # Ensure this matches your Vite build output
+          path: './Website-Portfolio/dist'  # Vite outputs to dist by default
 
       - name: Deploy to GitHub Pages
         id: deployment

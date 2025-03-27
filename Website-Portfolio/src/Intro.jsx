@@ -1,3 +1,4 @@
+
 function Intro(){
     return(
         <div className="introContainer">
@@ -13,9 +14,7 @@ function Intro(){
                 </p>
             </div>
 
-            <img className="profilePic"
-                src="/Headshot.png"  alt="Profile Picture">
-            </img>
+            <img className="profilePic" src="Headshot.png" alt="Profile Picture" />
 
         </div>
     );
