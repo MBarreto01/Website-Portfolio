@@ -9,13 +9,18 @@ body, html {
     padding: 0;
     margin-bottom: 20px;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* Header Styling */
-.headerBar {
-    display: flex;
+
+.navBar {
     position: sticky;
     top: 0;
+}
+
+.headerBar {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 25px;
@@ -107,6 +112,7 @@ body, html {
 }
 
 .aboutMeTitle {
+    margin-top: 100px;
     font-size: 30px;
     text-decoration: underline;
     color: #5b8667;
@@ -134,6 +140,7 @@ body, html {
 }
 
 .projectsTitle {
+    margin-top: 100px;
     font-size: 30px;
     text-decoration: underline;
     color: #5b8667;
@@ -186,6 +193,7 @@ body, html {
 }
 
 .skillsTitle {
+    margin-top: 100px;
     font-size: 30px;
     text-decoration: underline;
     color: #5b8667;
@@ -218,9 +226,11 @@ body, html {
 }
 
 .contactTitle {
+    margin-top: 100px;
     font-size: 30px;
     text-decoration: underline;
     color: #5b8667;
+    margin-bottom: 30px;
 }
 
 .contactBody {

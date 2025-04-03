@@ -1,6 +1,8 @@
 function Header({ scrollToSection }) {
-    return (
-      <header>
+    
+  return (
+    
+      <header className="navBar">
         <nav>
           <ul className="headerBar">
             <li className="myName">
